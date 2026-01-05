@@ -1,0 +1,60 @@
+/* About page styles */
+.about-root{
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
+  color:#0f172a
+}
+.about-hero{
+  background-image: url("https://images.unsplash.com/photo-1457369804613-52c61a468e7d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  padding:64px 20px;
+  display:flex;
+  align-items:center;
+  justify-content:center
+}
+.about-inner{
+  max-width:1000px;
+  text-align:center
+}
+.about-title{
+  font-size:2.2rem;
+  margin:0 0 8px;
+  color:#111827
+}
+.about-lead{
+  margin:0;
+  color:#374151;
+  font-size:1.05rem
+}
+
+.about-content.container{
+  max-width:1100px;
+  margin:36px auto;
+  padding:0 20px
+}
+.split{
+  display:flex;
+  gap:28px;
+  align-items:flex-start
+}
+.text{
+  flex:2
+}
+.text h2{
+  margin-top:0
+}
+.text p{
+  color:#475569;
+  line-height:1.6
+}
+.text ul{
+  margin:8px 0 0 20px;
+  color:#475569;
+  list-style-type: none;
+}
+
+@media (max-width:900px){
+  .split{flex-direction:column}
+  .team-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:640px){
+  .team-grid{grid-template-columns:1fr}
+}

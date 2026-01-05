@@ -1,0 +1,11 @@
+.users{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.user-cards{
+  width:300px; background: linear-gradient(120deg, rgba(49,14,16,0.9), rgba(116,7,14,0.85));
+  box-shadow:0 8px 18px rgba(22,22,22,0.35); border-radius:12px; padding:18px; display:flex; flex-direction:column; align-items:center; justify-content:center;
+}
+.user-cards h3{ color:var(--pale); margin:8px 0 }

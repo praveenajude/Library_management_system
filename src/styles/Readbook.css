@@ -1,0 +1,3 @@
+.book-read{ display:flex; justify-content:center; align-items:flex-start; padding:28px 16px; }
+.book-details{ background:var(--offwhite); border-radius:10px; padding:18px; box-shadow:0 8px 20px rgba(22,22,22,0.18); max-width:900px }
+.book-meta{ color:var(--muted); margin-top:8px }

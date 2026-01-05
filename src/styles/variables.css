@@ -1,0 +1,33 @@
+/* Global color variables for the site palette */
+:root{
+  --primary-dark: #310E10; /* deep maroon */
+  --tan: #B38F6F; /* warm tan */
+  --offwhite: #F2F1ED; /* soft off-white */
+  --accent-red: #74070E; /* stronger red accent */
+  --ink: #161616; /* near-black */
+  --pale: #F4E3B2; /* pale cream */
+  --olive: #45462A; /* muted olive */
+
+  /* semantic aliases */
+  --bg: var(--offwhite);
+  --surface: #ffffffcc;
+  --muted: var(--olive);
+  --text: var(--ink);
+  --brand: var(--primary-dark);
+}
+
+/* Global base styles */
+html,body,#root{ height:100%; }
+body{
+  margin:0;
+  /* background: linear-gradient(180deg, var(--bg), var(--pale)); */
+  color:var(--text);
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, 'Helvetica Neue', sans-serif;
+}
+
+/* Small utility */
+.container{ max-width:1100px; margin:0 auto; padding:0 20px; }
+
+button{ font-family: inherit; }
+
+a{ color:inherit; }

@@ -1,0 +1,6 @@
+/* Cart styles */
+.cart-root{ padding:28px 16px; }
+.cart-list{ display:flex; flex-direction:column; gap:12px; max-width:900px; margin:0 auto }
+.cart-item{ display:flex; align-items:center; justify-content:space-between; background:var(--offwhite); padding:12px; border-radius:10px; box-shadow:0 6px 16px rgba(22,22,22,0.12) }
+.cart-item .title{ color:var(--brand); font-weight:600 }
+.cart-total{ text-align:right; color:var(--muted); margin-top:12px }

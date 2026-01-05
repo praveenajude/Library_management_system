@@ -1,0 +1,7 @@
+# Enable rewrite engine
+RewriteEngine On
+
+# Allow direct access to PHP files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
