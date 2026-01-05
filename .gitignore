@@ -1,3 +1,29 @@
+# Node / frontend
+node_modules/
+build/
+dist/
+npm-debug.log*
+yarn-error.log*
+
+# Environment / secrets
+.env
+.env.*
+
+# PHP / backend
+vendor/
+*.log
+uploads/
+backend/database/*.sqlite
+backend/config/database.php
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Tests / coverage
+coverage/
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
